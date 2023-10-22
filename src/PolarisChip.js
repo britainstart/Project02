@@ -25,14 +25,15 @@ export class PolarisChip extends LitElement {
         color: #005fa9;
         cursor: pointer;
         text-decoration: underline;
+        padding: 12px 10px;
       }
 
       .link {
         font-weight: bold;
         text-decoration: none;
-        padding: 8px 4px;
-        border: 2px solid #444;
-        color: #444;
+        padding: 12px 10px;
+        border: 2px solid #005fa9;
+        color: #005fa9;
         font-size: 16px;
       }
     `;
