@@ -16,7 +16,7 @@ export class PolarisChip extends LitElement {
         display: inline-block;
         margin: 12px 12px 12px 12px;
         text-transform: uppercase;
-        font-style: italic;
+        font-style: none;
         padding: 12px 16px 12px 24px;
         font-weight: bold;
       }
@@ -106,7 +106,7 @@ export class PolarisChip extends LitElement {
         text-decoration: none;
       }
 
-      .lightfilled {
+      .lightFilled {
         border: 2px solid #ccf0ff;
         color: #1e407c;
         padding: 12px 16px 12px 24px;
