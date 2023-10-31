@@ -14,33 +14,12 @@ export class PolarisChip extends LitElement {
       return css`
       :host {
         display: inline-block;
-        margin: 0 12px 12px 0;
+        margin: 12px 12px 12px 12px;
         text-transform: uppercase;
         font-style: italic;
         padding: 12px 16px 12px 24px;
         font-weight: bold;
       }
-      
-              /*
-                    .link:hover,
-                    :host([active]) .link {
-                      background-color: #e4e5e7;
-                      border: 2px solid #e4e5e7;
-                      border-radius: 2px;
-                      color: #005fa9;
-                      cursor: pointer;
-                      text-decoration: underline;
-                    }
-                    */
-                    /*
-                    .link {
-                      text-decoration: none;
-                      padding: 8px 4px;
-                      border: 2px solid #444;
-                      color: #444;
-                      font-size: 16px;
-                    }
-              */
                     
       .primaryOutlined {
         border: 2px solid #005fa9;
@@ -48,16 +27,17 @@ export class PolarisChip extends LitElement {
         color: #005fa9;
         padding: 12px 16px 12px 24px;
         border-radius: 4px;
+        text-decoration: none;
       }
 
-      .primaryOutlined:hover,
+      .primaryOutlined:hover, .primaryOutlined:focus,
       :host([active]) .primaryOutlined {
         background-color: #005fa9;
         border: 2px solid #005fa9;
         border-radius: 2px;
         color: #fff;
         cursor: pointer;
-        text-decoration: underline;
+        text-decoration: none;
         border-radius: 4px;
       }
 
